@@ -29,7 +29,7 @@ COPY ./static /static
 COPY ./templates /templates
 COPY ./*.py /
 RUN chmod +x ./app.py
-EXPOSE 5000  
+EXPOSE 80  
 CMD ["python", "app.py"]  
 
 
